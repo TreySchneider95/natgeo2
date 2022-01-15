@@ -1,0 +1,84 @@
+/* global */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+header{
+    text-align: center;
+}
+/* utilities */
+/* menu */
+nav.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 35px;
+    padding: 5px 10px 0 20px;
+}
+nav.menu img.big-logo {
+    display: none;
+    height: 50px;
+}
+nav.menu img.small-logo {
+    display: block;
+    height: 30px;
+}
+nav.menu a {
+    margin-right: 30px;
+}
+a.login-link {
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+a.subscribe-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background-color: black;
+    padding: 16px;
+}
+a.arrows-link {
+    color: black;
+}
+a.search-link, a.renew-link, a.menu-link {
+    display: none;
+}
+/* headers */
+.stories-head{
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 3px;
+    margin: 50px 0 20px 0;
+}
+.body-head{
+    letter-spacing: .5px;
+    margin-bottom: 25px;
+}
+.body-head-sub{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 2px;
+}
+.line-yellow{
+    margin: 30px auto;
+    border: 2px solid yellow;
+    width: 30px;
+
+}
